@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mongodb</id>
+    <version>4.0.5</version>
+    <title>mongodb (Install)</title>
+    <authors>Ferguson</authors>
+    <projectUrl>https://docs.mongodb.com/manual/administration/install-community/</projectUrl>
+    <tags>mongocompass SPACE_SEPARATED</tags>
+    <summary>Install MongoDB</summary>
+    <description>__REPLACE__MarkDown_Okay </description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
